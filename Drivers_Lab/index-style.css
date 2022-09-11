@@ -1,0 +1,425 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+}
+
+h1 {
+    font-weight: 700 !important;
+}
+
+
+
+
+/*
+--------------------------------- HEADER SECTION ------------------------------------
+*/
+
+nav {
+    width: 100%;
+    background-color: #fff;
+}
+
+nav div {
+    margin-bottom: 0.5%;
+}
+
+.navbar {
+    padding: 0% !important;
+    margin: 0% !important;
+}
+
+.navbar li {
+    margin: 0% !important;
+    font-size: 16px;
+}
+
+.offcanvas-body {
+    padding: 0% !important;
+    margin: 0% !important;
+}
+
+#menu-button {
+    margin: 0 auto;
+    color: #ff3838 !important;
+    border: 2px solid #ff3838 !important;
+    transition: 0.5s;
+} 
+
+#menu-button:hover,
+#menu-button:active {
+    color: #fff !important;
+    background-color: #ff3838 !important;
+    border: 2px solid #ff3838 !important;
+}
+
+header ul {
+    list-style: none;
+    text-align: center;
+}
+
+.offcanvas-body .nav-link {
+    color: #000000 !important;
+    transition: 0.5s;
+}
+
+.offcanvas-body .nav-link:hover,
+.offcanvas-body .nav-link:active {
+    color: #ff3838 !important;
+}
+
+.logo-white {
+    width: 27%;
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.menu-logo-white {
+    width: 60%;
+}
+
+#button-side {
+    text-align: right;
+}
+
+.book-button {
+    margin-right: 10%;
+    margin-top: 5%;
+    background-color: #ff3838;
+    padding: 1.2% 4%;
+    border-radius: 18px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    transition: all 0.5s;
+}
+
+.book-button:hover,
+.book-button:active {
+    color: #ff3838;
+    border: 2px solid #ff3838;
+    background-color: #fff;
+}
+
+#book {
+    text-decoration: none;
+}
+
+header hr {
+    margin: 1% 0 0.5% 0;
+}
+
+header .carousel-item h5 {
+    font-size: 45px;
+    text-align: left;
+    margin-bottom: 28.5%;
+    font-weight: 700;
+}
+
+header .carousel-item img {
+    filter: brightness(70%);
+}
+
+#carouselExampleFade button {
+    font-size: 50px;
+    color: #fff !important;
+}
+
+
+
+
+
+
+
+
+
+/*
+--------------------------------- BOOKING SECTION ------------------------------------
+*/
+
+#booking-section h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.heading-underline {
+    text-align: center;
+}
+
+#booking-section .line, #booking-section i {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.5%;
+    font-size: 20px;
+}
+
+.heading-underline i {
+    background-color: #000;
+    padding: 1%;
+    margin-left: 0.5%;
+    border-radius: 50%;
+    color: #FAAF1D;
+}
+
+#booking-section .line {
+    width: 90px;
+    border: 2px solid #000;
+}
+
+.booking-steps {
+    margin: 0 auto;
+    background-color: #ff3838;
+    width: 70px;
+    height: 70px;
+    border: 2px solid #ff3838;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: rotate(45deg) ;
+    -webkit-transform: rotate(45deg) ;
+    -moz-transform: rotate(45deg) ;
+    -o-transform: rotate(45deg) ;
+    -ms-transform: rotate(45deg) ;
+    transition: 0.5s;
+}
+
+.booking-steps:hover,
+.booking-steps:active {
+    background-color: #fff;
+    color: #ff3838 !important;
+}
+
+#steps .fas {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 15%;
+    font-size: 30px;
+    color: #fff;
+    transform: rotate(-45deg) !important;
+    -webkit-transform: rotate(-45deg) ;
+    -moz-transform: rotate(-45deg) ;
+    -o-transform: rotate(-45deg) ;
+    -ms-transform: rotate(-45deg) ;
+    transition: 0.5s;
+}
+
+#steps .fas:hover,
+#steps .fas:active {
+    color: #ff3838;
+}
+
+#steps p {
+    font-weight: 700;
+}
+
+#step1, #step2, #step3 {
+    margin-bottom: 7%;
+}
+
+
+
+
+
+
+
+/*
+--------------------------------- SERVICES SECTION ------------------------------------
+*/
+
+#services-section h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.heading-underline {
+    text-align: center;
+}
+
+#services-section .line, #services-section i {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0.5%;
+    font-size: 20px;
+}
+
+.heading-underline i {
+    background-color: #000;
+    padding: 1%;
+    margin-left: 0.5%;
+    border-radius: 50%;
+    color: #FAAF1D;
+}
+
+#services-section .line {
+    width: 90px;
+    border: 2px solid #000;
+}
+
+#services-section img  {
+    width: 100%;
+    transition: 0.2s;
+}
+
+#services-section img:hover,
+#services-section img:active {
+    filter: blur(0.8px);
+}
+
+#service-row div {
+    margin-bottom: 1.5%;
+}
+
+#service-row h5 {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 3% 0;
+    margin-top: -13.5%;
+    background-color: rgba(255, 0, 0, 0.7);
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+#services-section a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+/*
+--------------------------------- FOOTER SECTION ------------------------------------
+*/
+
+footer {
+    background-color: #000016;
+    color: #fff;
+}
+
+footer .row {
+    margin: 0 auto;
+}
+
+footer li {
+    font-size: 13px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    text-align: center;
+    padding-top: 0.8%;
+    margin-right: 1% !important;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s;
+}
+
+footer a:hover,
+footer a:active {
+    color: #ff3838;
+}
+
+footer .row {
+    border: 2px solid #1E1E50;
+    background-color: #000021;
+    border-radius: 9px;
+}
+
+footer p {
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+--------------------------- FLOATING CONTACT -----------------------------
+*/
+
+.floating-whatsapp {
+    position: absolute;
+    left: 1%;
+    top: 90%;
+    position: fixed;
+    z-index: 999;
+}
+
+#float-whatsapp {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    font-size: 27px;
+    /* font-weight: 700; */
+    background-color: #25D366;
+    border-radius: 50%;
+    padding-top: 20%;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+#float-whatsapp:hover,
+#float-whatsapp:active {
+    background-color: #ffffff;
+    color: #25D366;
+    box-shadow: #25D366 0px 1px 4px, #25D366 0px 0px 0px 3px;
+}
+
+.floating-top {
+    position: absolute;
+    right: 1%;
+    top: 90%;
+    position: fixed;
+    z-index: 999;
+}
+
+#float-top {
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    font-size: 27px;
+    background-color: #ff3838;
+    padding-top: 20%;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+#float-top:hover,
+#float-top:active {
+    background-color: #ffffff;
+    color: #ff3838;
+    box-shadow: #ff3838 0px 1px 4px, #ff3838 0px 0px 0px 3px;
+}
+
+
+
+
+
+
+
+
+
+
