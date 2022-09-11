@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+section {
+    width: 100%;
+}
+
+#clearfix:after {
+    clear: both;
+    display: block;
+    content: ".";
+    visibility: hidden;
+}
+
+
+
+
+/*
+------------------------------------ HEADER -------------------------------------
+*/
+
+header {
+    width: 100%;
+}
+
+nav {
+    background-color: #151C1F;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+#line-button {
+    background-color: #151C1F;
+    border: 2px solid #fff;
+    color: #fff;
+    transition: 0.5s;
+}
+
+#close-button {
+    background-color: rgb(170, 170, 170);
+    border-color: rgb(170, 170, 170);
+    color: #000;
+    transition: 0.5s;
+}
+
+#line-button:hover,
+#line-button:active,
+#close-button:hover,
+#close-button:active {
+    background-color: #fff;
+    border-color: #fff;
+    color: #151C1F;
+}
+
+#logo {
+    width: 65%;
+    color: #ffffff;
+}
+
+.mobile-logo {
+    width: 50%;
+}
+
+.offcanvas {
+    background-color: #151C1F;
+}
+
+#lies {
+    color: rgba(126, 214, 223, 0.7);
+    transition: 0.5s;
+}
+
+nav ul li {
+    font-size: 16px;
+    margin-right: 3%;
+    transition: 0.5s;
+}
+
+
+#lies:hover,
+#lies:active {
+    color: #ffffff;
+}
+
+.video-side {
+    margin-top: 3%;
+    background-color: #000;
+}
+
+.video-side video {
+    width: 100%;
+}
+
+
+
+
+
+
+/*
+------------------------------------ IMAGES SECTION -------------------------------------
+*/
+
+.images-section {
+    color: #fff;
+    background-color: #101624;
+    margin-top: -0.5%;
+}
+
+.images-section ul{
+    width: 100%;
+    background-color: #d10909;
+    font-size: 16px;
+}
+
+.images-section ul li a{
+    color: #fff;
+}
+
+.images-section ul li a:hover,
+.images-section ul li a:active {
+    color: #fff;
+}
+
+.images-section h1 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.images-section h1::after,
+.details-section h1::after,
+.videos-section h1::after {
+    display: block;
+    content: "";
+    width: 80px;
+    height: 3px;
+    margin-top: 1.5%;
+    background-color: #fff;
+}
+
+.images-section img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+------------------------------------ BUY-NOW SECTION -------------------------------------
+*/
+
+
+.buynow-section {
+    background-color: #151D20;
+}
+
+
+
+
+
+
+
+
+/*
+------------------------------------ DETAILS SECTION -------------------------------------
+*/
+
+
+.details-section {
+    color: #404040;
+}
+
+.details-section h1::after {
+    background-color: #404040;
+}
+
+.details-section h1 {
+    font-weight: 400;
+}
+
+.details-section p,
+.details-section ul {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.details-section img {
+    width: 100%;
+} 
+
+.greater {
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+/*
+-------------------------------- VIDEOS SECTION ----------------------------------
+*/
+
+.videos-section {
+    background-color: #0D111D;
+    color: #fff;
+}
+
+.videos-section .card {
+    background-color: #0D111D;
+}
+
+.videos-section h1 {
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+/*
+------------------------- DIGITAL INFO ----------------------------------
+*/
+
+.digital-info {
+    background-color: #1A2134;
+}
+
+
+
+
+
+/*
+------------------------- DIGITAL INFO ----------------------------------
+*/
+
+.marvel {
+    background-color: #000;
+    color: #fff;
+}
+
+.marvel img {
+    width: 20%;
+}
+
+.marvel p {
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+/*
+------------------------------------ FOOTER -------------------------------------
+*/
+
+footer {
+    width: 100%;
+    background-color: #293237;
+    font-size: 17px;
+    color: #fff;
+    padding-bottom: 0;
+}
+
+footer img {
+    width: 30%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
