@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+section {
+    width: 100%;
+}
+
+h1, h2 {
+    font-weight: 900;
+}
+
+
+/*
+------------------------------------ HEADER SECTION --------------------------------------------
+*/
+
+.header-section {
+    background-color: #dff9fb;
+}
+
+.header-section div{
+    width: 46%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5% 0 5% 3%;
+}
+
+.header-section input {
+    display: inline-block;
+    padding: 2.3% 1%;
+    background-color: #fff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 20px;
+    border: none;
+    vertical-align: top;
+}
+
+#button {
+    display: inline-block;
+    padding: 2.2% 3%;
+    background-color: #17c0eb;
+    color: #ffffff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: -10px;
+}
+
+
+
+
+/*
+------------------------------------ UNDER HEADER SECTION --------------------------------------------
+*/
+
+.under-header {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.under-header li {
+    display: inline-block;
+    width: 25%;
+    margin-left: 6%;
+}
+
+#ico {
+    display: inline-block;
+    width: 15%;
+    height: 50px;
+    vertical-align: top;
+    background-color: rgb(228, 228, 228);
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 4%;
+    margin-right: 2%;
+}
+
+.under-header p {
+    display: inline-block;
+    width: 70%;
+    font-size: 18px;
+}
+
+
+
+
+/*
+------------------------------------ MONEY SECTION --------------------------------------------
+*/
+
+
+.money-section {
+    background-color: #dff9fb;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.money-section div {
+    width: 46%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5% 0 5% 5%;
+}
+
+.money-section input {
+    display: inline-block;
+    padding: 2.3% 0% 2.3% 1%;
+    background-color: #fff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 20px;
+    border: 2px solid #17c0eb;
+    vertical-align: top;
+}
+
+#flagbutton {
+    display: inline-block;
+    padding: 2.6% 5%;
+    background-color: #17c0eb;
+    color: #ffffff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-left: -6px;
+}
+
+.money-section ul {
+    font-size: 18px;
+    border-left: 1px dashed #000;
+    margin-left: 5%;
+    height: 150px;
+    padding-top: 6%;
+}
+
+.money-section li {
+    margin-bottom: 3%;
+    list-style: none;
+    margin-left: -1.7%;
+}
+
+.money-section li:before {
+    content: " ";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 2%;
+    background-color: #000;
+    border-color: black;
+}
+
+.money-section img {
+    margin-right: 10px;
+}
+
+
+
+
+
+/*
+------------------------------------ FEATURES SECTION --------------------------------------------
+*/
+
+.features-section {
+    padding-bottom: 5%;
+}
+
+.features-section div {
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 7% 0 5% 7%;
+}
+
+.features-section ul {
+    text-align: center;
+}
+
+.features-section li {
+    display: inline-block;
+    width: 30%;
+}
+
+.features-section li h1 {
+    padding: 7% 0;
+    width: 25%;
+    margin-left: 37%;
+    margin-bottom: 7%;
+    background-color: #dff9fb;
+    border-radius: 15px;
+}
+
+
+
+
+
+/*
+------------------------------------ ABOUT SECTION --------------------------------------------
+*/
+
+
+.secton-info {
+    background-color: #dff9fb;
+    padding-top: 5%;
+}
+
+.secton-info ul {
+    text-align: left;
+}
+
+.secton-info h2 {
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 5%;
+}
+
+.secton-info li {
+    display: inline-block;
+    width: 25%;
+    margin-left: 6%;
+}
+
+
+
+
+
+
+
+
