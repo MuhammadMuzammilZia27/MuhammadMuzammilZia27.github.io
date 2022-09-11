@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pixabay.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Pixabay</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li id="logo-txt"><a href="#">pixabay</a></li>
+            <li><a href="#">Photos</a></li>
+            <li><a href="#">Illustrations</a></li>
+            <li><a href="#">Vectors</a></li>
+            <li><a href="#">Videos</a></li>
+            <li><a href="#">Music</a></li>
+            <li id="ico-space"><a href="#">Sound Effects</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">Log in</a></li>
+            <li><a href="#">Join</a></li>
+            <li id="upload-button"><i class="fas fa-upload"></i> <a href="#">Upload</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <div>
+            <h1>Stunning free images & royalty free stock</h1>
+            <p>Over 2.4 million+ high quality stock images, videos and music shared by our talented community.</p>
+            <input type="search" name="search" id="search" placeholder="Search images, vectors, videos and music" autocomplete="off">
+            <p id="links">Popular images: <a href="#">halloween</a>, <a href="#">wallpaper</a>, <a href="#">christmas</a>, <a href="#">diwali</a>, <a href="#">nature</a>, <a href="#">background</a>, <a href="#">dog</a>, <a href="#">cat</a>, <a href="#">food</a>, <a href="#">sky</a>, <a href="#">flower</a>, <a href="#">thanksgiving</a>, <a href="#">coronavirus</a></p>
+        </div>
+    </header>
+
+    <div class="grid"> <!-- data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }' -->
+        <div class="grid-sizer"></div>
+        <div class="grid-item"><img src="photos/1.jpg" alt="Photo 1"></div>
+        <div class="grid-item"><img src="photos/2.jpg" alt="Photo 2"></div>
+        <div class="grid-item"><img src="photos/3.jpg" alt="Photo 3"></div>
+        <div class="grid-item"><img src="photos/4.jpg" alt="Photo 4"></div>
+        <div class="grid-item"><img src="photos/5.jpg" alt="Photo 5"></div>
+        <div class="grid-item"><img src="photos/6.jpg" alt="Photo 6"></div>
+        <div class="grid-item"><img src="photos/7.jpg" alt="Photo 7"></div>
+        <div class="grid-item"><img src="photos/8.jpg" alt="Photo 8"></div>
+        <div class="grid-item"><img src="photos/9.jpg" alt="Photo 9"></div>
+        <div class="grid-item"><img src="photos/10.jpg" alt="Photo 10"></div>
+        <div class="grid-item"><img src="photos/11.png" alt="Photo 11"></div>
+        <div class="grid-item"><img src="photos/12.jpg" alt="Photo 12"></div>
+        <div class="grid-item"><img src="photos/13.jpg" alt="Photo 13"></div>
+        <div class="grid-item"><img src="photos/14.jpg" alt="Photo 14"></div>
+        <div class="grid-item"><img src="photos/15.jpg" alt="Photo 15"></div>
+        <div class="grid-item"><img src="photos/16.jpg" alt="Photo 16"></div>
+        <div class="grid-item"><img src="photos/17.jpg" alt="Photo 17"></div>
+        <div class="grid-item"><img src="photos/18.png" alt="Photo 18"></div>
+        <div class="grid-item"><img src="photos/19.jpg" alt="Photo 19"></div>
+        <div class="grid-item"><img src="photos/20.jpg" alt="Photo 20"></div>
+        <div class="grid-item"><img src="photos/21.jpg" alt="Photo 21"></div>
+        <div class="grid-item"><img src="photos/22.jpg" alt="Photo 22"></div>
+        <div class="grid-item"><img src="photos/23.png" alt="Photo 22"></div>
+        <div class="grid-item"><img src="photos/24.jpg" alt="Photo 24"></div>
+        <div class="grid-item"><img src="photos/25.jpg" alt="Photo 25"></div>
+    </div>
+
+
+    <footer>
+        <img src="photos/Footer-Logo.png" alt="Footer Logo">
+        <p>Copyright &copy; 2021</p>
+        <p>Muhammad Muzammil Zia</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4.1.4/imagesloaded.pkgd.min.js"></script>
+
+    <!-- <script>
+                // init Masonry
+        var $grid = $('.grid').masonry({
+        itemSelector: '.grid-item',
+        percentPosition: true,
+        columnWidth: '.grid-sizer'
+        });
+
+        // layout Masonry after each image loads
+        $grid.imagesLoaded().progress( function() {
+        $grid.masonry();
+        });
+    </script> -->
+
+
+    <script>
+                $('.grid').masonry({
+        // set itemSelector so .grid-sizer is not used in layout
+        itemSelector: '.grid-item',
+        // use element for option
+        columnWidth: '.grid-sizer',
+        percentPosition: true
+        })
+    </script>
+</body>
+</html>
+
+
+
