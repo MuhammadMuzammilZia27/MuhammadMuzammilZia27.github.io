@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+section {
+    width: 100%;
+}
+
+
+
+/*
+----------------------------- HEADER SECTION -----------------------------------
+*/
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(photos/Header\ Background.png);
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    color: #ffffff;
+    
+}
+
+nav ul {
+    margin-left: 3%;
+}
+
+nav li {
+    list-style: none;
+    display: block;
+    width: 10%;
+    float: left;
+    margin-right: 2%;
+    margin-top: 3%;
+}
+
+.downloadnow {
+    margin-right: 4%;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+nav li a:hover,
+nav li a:active {
+    color: gold;
+}
+
+.nav-logo img {
+    width: 100%;
+}
+
+.nav-logo {
+    width: 15%;
+    margin-right: 45%;
+    margin-top: 0.5%;
+}
+
+
+header div {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    margin-left: 5%;
+    font-size: 120%;
+    color: #ffffff;
+}
+
+.image-side {
+    width: 30%;
+}
+
+.image-side img {
+    width: 100%;
+}
+
+.info-side {
+    padding-top: 5%;
+    margin-left: 11%;
+}
+
+header button {
+    padding: 2% 6% 2% 6%;
+    border-radius: 20px;
+    background: none;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    margin-top: 5%;
+    font-size: 60%;
+    font-weight: 700;
+    transition: 0.5s;
+}
+
+header button:hover,
+header button:active {
+    background-color: #FFC312;
+    border: 2px solid gold;
+    color: #000;
+}
+
+.info-side a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/*
+----------------------------- DOWNLOAD SECTION -----------------------------------
+*/
+
+
+.download-section {
+    background-color: gold;
+}
+
+.download-section div {
+    width: 50%;
+    margin: 0 auto;
+    padding: 7% 0;
+    text-align: center;
+    color: #000;
+}
+
+.download-section h1 {
+    font-size: 300%;
+    margin-bottom: 3%;
+}
+
+.download-section p {
+    font-weight: 500;
+}
+
+.download-section img {
+    margin-right: 1%;
+    margin-top: 3%;
+    border-radius: 10px;
+    width: 23%;
+}
+
+
+
+
+
+
+
+/*
+----------------------------- FEATURES SECTION -----------------------------------
+*/
+
+
+.features-section {
+    margin-top: 7%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.features-section h1 {
+    font-size: 220%;
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+
+.feature-p {
+    margin-bottom: 5%;
+    font-weight: 500;
+}
+
+.features-section div {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    margin-left: 5%;
+    color: #ffffff;
+}
+
+.feature-image {
+    width: 30%;
+}
+
+.feature-image img {
+    width: 100%;
+}
+
+.feature-info li {
+    list-style: none;
+    margin-bottom: 5%;
+}
+
+#feature-ico,
+.feature-info p {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 2%;
+    color: #000;
+}
+
+.feature-info p {
+    width: 70%;
+}
+
+.feature-info {
+    padding-top: 8%;
+}
+
+#feature-ico {
+    font-size: 270%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding-top: 4%;
+    border: 2px solid #ff3838;
+    color: #ff3838;
+    transition: 0.5s;
+}
+
+#feature-ico:hover,
+#feature-ico:active {
+    border: 2px solid #ff3838;
+    background-color: #ff3838;
+    color: #ffffff;
+}
+
+.feaute-heading {
+    font-size: 150%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+----------------------------- CONTACT SECTION -----------------------------------
+*/
+
+
+.contact-section{
+    background-color: gold;
+}
+
+.contact-section div {
+    width: 50%;
+    margin: 0 auto;
+    padding: 7% 0;
+    text-align: center;
+}
+
+.contact-section h1 {
+    font-size: 300%;
+    margin-bottom: 3%;
+}
+
+#heading-heart {
+    color: red;
+}
+
+.contact-section li {
+    list-style: none;
+    display: inline-block;
+}
+
+.contact-section a {
+    text-decoration: none;
+}
+
+#face-ico,
+#insta-ico,
+#twi-ico {
+    font-size: 200%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding-top: 18%;
+    border: 2px solid #ffffff;
+    transition: 0.5s;
+}
+
+#face-ico {
+    color: #4267B2;
+}
+
+#insta-ico {
+    color: #F56040;
+}
+
+#twi-ico {
+   color: #1DA1F2
+}
+
+#face-ico:hover,
+#face-ico:active {
+    background-color: #4267B2;
+    color: #ffffff;
+    border: 2px solid #4267B2;
+}
+
+#insta-ico:hover,
+#insta-ico:active {
+    background-color: #F56040;
+    color: #ffffff;
+    border: 2px solid #F56040;
+}
+
+#twi-ico:hover,
+#twi-ico:active {
+    background-color: #1DA1F2;
+    color: #ffffff;
+    border: 2px solid #1DA1F2;
+}
+
+
+
+
+
+
+
+
+/*
+----------------------------- FOOTER SECTION -----------------------------------
+*/
+
+footer {
+    background-color: rgb(21, 21, 21);
+    text-align: center;
+    color: #ffffff;
+}
+
+footer img {
+    width: 25%;
+}
+
+
+
+
+
+
+
+/* 
+----------------------------------------------------
+----------------ANIMATIONS-----------------
+------------------------------------------------
+*/
+
+
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3 {
+    opacity: 0;
+}
+
+
+.js--wp-1.animate__animated,
+.js--wp-2.animate__animated,
+.js--wp-3.animate__animated {
+    opacity: 1;
+}
+
+
+
+
+
+

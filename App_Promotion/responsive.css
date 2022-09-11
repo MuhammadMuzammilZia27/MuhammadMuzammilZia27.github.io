@@ -1,0 +1,568 @@
+@media only screen and (max-width: 1200px) {
+/*
+----------------------------- HEADER SECTION -----------------------------------
+*/
+
+.info-side {
+    font-size: 95%;
+}
+
+
+
+/*
+----------------------------- DOWNLOAD SECTION -----------------------------------
+*/
+
+
+.download-section h1 {
+    font-size: 220%;
+}
+
+.download-section img {
+    width: 27%;
+}
+
+
+
+
+
+
+
+/*
+----------------------------- CONTACT SECTION -----------------------------------
+*/
+
+
+.contact-section div {
+    width: 50%;
+}
+
+.contact-section h1 {
+    font-size: 260%;
+}
+
+
+
+
+/*
+----------------------------- FEATURES SECTION -----------------------------------
+*/
+
+.feature-info {
+    padding-top: 6%;
+}
+
+#feature-ico {
+    width: 90px;
+    height: 90px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1023px) {
+/*
+----------------------------- HEADER SECTION -----------------------------------
+*/
+
+header {
+    height: 110vh;
+}
+
+nav li {
+    font-size: 80%;
+}
+
+.info-side {
+    font-size: 90%;
+    font-weight: 500;
+}
+
+.image-side {
+    width: 35%;
+}
+
+.info-side {
+    margin-left: 8%;
+}
+
+header button {
+    padding: 2% 5% 2% 5%;
+}
+
+
+
+
+
+
+
+/*
+----------------------------- DOWNLOAD SECTION -----------------------------------
+*/
+
+
+.download-section div {
+    width: 55%;
+}
+
+.download-section h1 {
+    font-size: 230%;
+}
+
+.download-section img {
+    width: 28%;
+}
+
+
+
+
+
+
+/*
+----------------------------- FEATURES SECTION -----------------------------------
+*/
+
+.features-section h1 {
+    font-size: 190%;
+}
+
+
+.feature-info p {
+    width: 65%;
+    font-size: 70%;
+    font-weight: 500;
+}
+
+.feature-info {
+    padding-top: 5%;
+}
+
+#feature-ico {
+    font-size: 200%;
+    width: 75px;
+    height: 75px;
+}
+
+.feaute-heading {
+    font-size: 150%;
+}
+
+
+
+
+
+
+/*
+----------------------------- CONTACT SECTION -----------------------------------
+*/
+
+
+.contact-section div {
+    width: 60%;
+}
+
+.contact-section h1 {
+    font-size: 200%;
+}
+
+#face-ico,
+#insta-ico,
+#twi-ico {
+    font-size: 180%;
+    width: 60px;
+    height: 60px;
+    padding-top: 18%;
+}
+
+
+
+
+
+/*
+----------------------------- FOOTER SECTION -----------------------------------
+*/
+
+footer {
+    font-size: 90%;
+}
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+/*
+----------------------------- HEADER SECTION -----------------------------------
+*/
+
+header {
+    height: 95vh;
+}
+
+nav li {
+    font-size: 60%;
+}
+
+.info-side {
+    font-size: 67%;
+    font-weight: 500;
+    padding-top: 1%;
+}
+
+.info-side button {
+    font-size: 80%;
+}
+
+.image-side {
+    width: 40%;
+}
+
+.info-side {
+    margin-left: 7%;
+}
+
+header button {
+    padding: 3% 5% 3% 5%;
+}
+
+
+
+
+
+
+
+/*
+----------------------------- DOWNLOAD SECTION -----------------------------------
+*/
+
+
+.download-section div {
+    width: 65%;
+}
+
+.download-section p {
+    font-size: 85%;
+}
+
+.download-section h1 {
+    font-size: 180%;
+}
+
+.download-section img {
+    width: 30%;
+}
+
+
+
+
+
+
+/*
+----------------------------- FEATURES SECTION -----------------------------------
+*/
+
+.features-section h1 {
+    font-size: 160%;
+}
+
+
+.feature-info p {
+    width: 67%;
+    font-size: 65%;
+    font-weight: 500;
+}
+
+.feature-p {
+    font-size: 75%;
+}
+
+.features-section div {
+    margin-left: 3%;
+}
+
+.feature-info {
+    padding-top: 1%;
+}
+
+#feature-ico {
+    font-size: 170%;
+    width: 60px;
+    height: 60px;
+}
+
+.feaute-heading {
+    font-size: 150%;
+}
+
+
+
+
+
+
+/*
+----------------------------- CONTACT SECTION -----------------------------------
+*/
+
+
+.contact-section div {
+    width: 70%;
+}
+
+.contact-section h1 {
+    font-size: 200%;
+}
+
+#face-ico,
+#insta-ico,
+#twi-ico {
+    font-size: 180%;
+    width: 60px;
+    height: 60px;
+    padding-top: 18%;
+}
+
+
+
+
+
+/*
+----------------------------- FOOTER SECTION -----------------------------------
+*/
+
+footer {
+    font-size: 90%;
+}
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 567px) {
+/*
+----------------------------- HEADER SECTION -----------------------------------
+*/
+
+header {
+    width: 100%;
+    height: 200vh;
+}
+
+nav li {
+    display: none;
+}
+
+.nav-logo {
+    display: block;
+    width: 20%;
+    margin-right: 20%;
+}
+
+
+header div {
+    display: block;
+    width: 88%;
+    margin: auto 1%;
+    margin-bottom: 10%;
+}
+
+.image-side {
+    width: 98%;
+}
+
+.info-side {
+    font-size: 80%;
+}
+
+header button {
+    padding: 2% 5% 2% 5%;
+    border-radius: 15px;
+    font-size: 50%;
+}
+
+
+
+
+
+
+
+
+/*
+----------------------------- DOWNLOAD SECTION -----------------------------------
+*/
+
+
+.download-section div {
+    width: 75%;
+}
+
+.download-section h1 {
+    font-size: 170%;
+}
+
+.download-section p {
+    font-size: 80%;
+}
+
+.download-section img {
+    margin-right: 1%;
+    border-radius: 5px;
+    width: 30%;
+}
+
+
+
+
+
+
+
+/*
+----------------------------- FEATURES SECTION -----------------------------------
+*/
+
+
+.features-section h1 {
+    font-size: 140%;
+}
+
+.features-section div {
+    display: block;
+    width: 95%;
+    margin-left: auto 2%;
+    margin-bottom: 7%;
+}
+
+.feature-image {
+    width: 100%;
+}
+
+.feature-info li {
+    margin-bottom: 10%;
+}
+
+#feature-ico,
+.feature-info p {
+    margin-right: 3%;
+}
+
+.feature-info p {
+    width: 70%;
+    font-size: 90%;
+}
+
+.feaute-heading {
+    font-size: 170%;
+}
+
+.feature-info {
+    padding-top: 0%;
+}
+
+#feature-ico {
+    font-size: 250%;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    padding-top: 3.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+----------------------------- CONTACT SECTION -----------------------------------
+*/
+
+.contact-section div {
+    width: 70%;
+}
+
+.contact-section h1 {
+    font-size: 180%;
+}
+
+#face-ico,
+#insta-ico,
+#twi-ico {
+    font-size: 160%;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    padding-top: 18%;
+}
+
+
+
+
+
+
+
+
+
+/*
+----------------------------- FOOTER SECTION -----------------------------------
+*/
+
+footer {
+    background-color: rgb(21, 21, 21);
+    text-align: center;
+    color: #ffffff;
+}
+
+footer img {
+    width: 25%;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
