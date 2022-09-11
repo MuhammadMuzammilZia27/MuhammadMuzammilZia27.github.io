@@ -1,0 +1,740 @@
+/*
+---------------------------- For Screen of 1200px and Below -----------------------------
+*/
+
+@media only screen and (max-width: 1200px) {
+/*
+------------------------------------ HEADER -------------------------------------
+*/
+
+#logo img {
+    width: 140px;
+}
+
+header .carousel-caption {
+    margin-bottom: 20%;
+}
+
+.slide-heading {
+    font-size: 60px;
+}
+
+
+
+
+
+/*
+------------------------------------ INTRODUCTION SECTION -------------------------------------
+*/
+
+#introduction h2,
+#introduction h3 {
+    font-size: 18px;
+}
+
+#introduction h2 {
+    font-size: 170%;
+}
+
+#prayer {
+    width: 90%;
+}
+
+
+#introduction button {
+    margin-right: 2.5%;
+}
+
+
+
+
+
+
+
+
+
+/*
+------------------------------------ BOOKS SECTION -------------------------------------
+*/
+
+#book-info p {
+    font-size: 16px;
+}
+
+#book-info button {
+    margin-top: 4%;
+    padding: 1% 6% 3.5% 6%;
+}
+
+#book-img {
+    margin-right: -0.5%;
+}
+
+#slide-buttons button span {
+    width: 65px;
+    height: 65px;
+    padding-top: 13%;
+}
+
+#slide-buttons {
+    right: 0.3%;
+}
+
+
+
+
+
+
+/*
+------------------------------------ ADDRESS SECTION --------------------------------------
+*/
+
+#address img {
+    width: 35%;
+}
+
+
+}
+
+
+
+
+
+
+
+/*
+---------------------------- For Screen of 1024px and Below -----------------------------
+*/
+
+@media only screen and (max-width: 1024px) {
+/*
+------------------------------------ HEADER -------------------------------------
+*/
+
+#logo img {
+    width: 140px;
+}
+
+header .carousel-caption {
+    margin-bottom: 10%;
+}
+
+.slide-heading {
+    font-size: 45px;
+}
+
+
+
+
+
+/*
+------------------------------------ INTRODUCTION SECTION -------------------------------------
+*/
+
+#introduction h2,
+#introduction h3 {
+    font-size: 17px;
+}
+
+#introduction h2 {
+    font-size: 160%;
+}
+
+#introduction h1 {
+    font-size: 200%;
+}
+
+#prayer {
+    width: 100%;
+}
+
+#introduction button {
+    margin-right: 3%;
+    margin-top: 7%;
+}
+
+#intro-side {
+    padding: 2%;
+}
+
+
+
+
+
+
+
+/*
+------------------------------------ BOOKS SECTION -------------------------------------
+*/
+
+#book-info {
+    padding: 2%;
+}
+
+#book-info h2 {
+    font-size: 30px;
+}
+
+#book-info h3 {
+    font-size: 20px;
+}
+
+#book-info p {
+    font-size: 16px;
+}
+
+#book-info button {
+    margin-top: 7%;
+    padding: 1% 6% 3.5% 6%;
+}
+
+#book-img {
+    margin-right: -0.5%;
+}
+
+#slide-buttons button span {
+    width: 60px;
+    height: 60px;
+    padding-top: 13%;
+}
+
+#slide-buttons {
+    right: 0.2%;
+}
+
+
+
+
+
+
+/*
+------------------------------------ ADDRESS SECTION --------------------------------------
+*/
+
+#address img {
+    width: 35%;
+}
+
+
+}
+
+
+
+
+
+
+
+
+/*
+---------------------------- For Screen of 1000px and Below -----------------------------
+*/
+
+@media only screen and (max-width: 1000px) {
+    /*
+------------------------------------ BOOKS SECTION -------------------------------------
+*/
+
+#book-info {
+    padding: 2%;
+    padding-bottom: 0;
+}
+
+#book-info h2 {
+    font-size: 20px;
+}
+
+#book-info h3 {
+    font-size: 15px;
+}
+
+#book-info p {
+    font-size: 12px;
+}
+
+#book-info button {
+    margin-top: 5%;
+    padding: 0.5% 5% 3% 5%;
+    font-size: 15px;
+}
+
+#book-img {
+    margin-right: -0.8%;
+}
+
+#slide-buttons button span {
+    width: 50px;
+    height: 50px;
+    padding-top: 7%;
+    font-size: 45px;
+}
+
+#slide-buttons {
+    right: 0.1%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+---------------------------- For Screen of 768px and Below -----------------------------
+*/
+
+@media only screen and (max-width: 768px) {
+/*
+------------------------------------ HEADER -------------------------------------
+*/
+
+header {
+    padding-top: 20%;
+}
+
+#logo img {
+    width: 120px;
+}
+
+#logo {
+    background-color: #23201d;
+}
+
+nav {
+    top: 23%;
+}
+
+#drop-down {
+    background-color: #23201d;
+}
+
+header .carousel-caption {
+    margin-bottom: 15%;
+}
+
+.slide-heading {
+    font-size: 35px;
+}
+
+header .carousel-caption button {
+    margin-top: 7%;
+    padding: 1.5% 3%;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+/*
+------------------------------------ INTRODUCTION SECTION -------------------------------------
+*/
+
+#introduction h2,
+#introduction h3 {
+    font-size: 16px;
+}
+
+#introduction h2 {
+    font-size: 160%;
+}
+
+#introduction h1 {
+    font-size: 200%;
+}
+
+#prayer {
+    width: 100%;
+}
+
+#introduction button {
+    margin-right: 3%;
+    margin-top: 3%;
+    font-size: 16px;
+    padding: 0.5% 2.5% 2% 2.5%;
+}
+
+#intro-side {
+    padding: 2%;
+    height: 420px;
+}
+
+
+
+
+
+/*
+------------------------------------ PROJECTS SECTION -------------------------------------
+*/
+
+#projects h1 {
+    font-size: 40px;
+}
+
+#projects h3 {
+    font-size: 18px;
+}
+
+#projects .card-body {
+    padding: 10% 5%;
+}
+
+#projects .card-body p {
+    font-size: 12px;
+    padding: 0 5%;
+} 
+
+#events button {
+    padding: 0.5% 5% 2.5% 5%;
+    font-size: 18px;
+    margin-top: 4%;
+}
+
+
+
+
+
+
+/*
+------------------------------------ EVENTS SECTION -------------------------------------
+*/
+
+#events h1 {
+    font-size: 40px;
+}
+
+#events .card-body {
+    padding: 7%;
+    padding-top: 5%;
+    padding-bottom: 7%;
+}
+
+.event-txt {
+    font-size: 15px;
+}
+
+.head-txt {
+    padding-top: 10%;
+}
+
+
+
+
+
+/*
+------------------------------------ BOOKS SECTION -------------------------------------
+*/
+
+#books h1 {
+    font-size: 45px;
+}
+
+#books h2 {
+    font-size: 25px;
+}
+
+#book-info p {
+    font-size: 14px;
+    padding-left: 3%;
+    padding-right: 2%;
+}
+
+#book-info button {
+    padding: 0.5% 5% 2.5% 5%;
+    margin-left: 10%;
+    margin-bottom: 7%;
+}
+
+#slide-buttons button span {
+    width: 50px;
+    height: 50px;
+    padding-top: 9%;
+}
+
+#slide-buttons {
+    right: 0;
+}
+
+
+
+
+
+
+
+/*
+-------------------------------- GALLERY SECTION ------------------------------------
+*/
+
+
+.grid-sizer,
+.grid-item {
+  width: 25%;
+}
+
+
+
+
+
+
+
+/*
+------------------------------------ ADDRESS SECTION --------------------------------------
+*/
+
+#address img {
+    width: 40%;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/*
+---------------------------- For Screen of 568px and Below -----------------------------
+*/
+
+@media only screen and (max-width: 568px) {
+/*
+------------------------------------ HEADER -------------------------------------
+*/
+
+#logo img {
+    width: 110px;
+}
+
+#logo {
+    background-color: #23201d;
+}
+
+nav {
+    top: 22%;
+}
+
+#drop-down {
+    background-color: #23201d;
+}
+
+header .carousel-caption {
+    margin-bottom: 7%;
+}
+
+.slide-heading {
+    font-size: 29px;
+}
+
+header .carousel-caption button {
+    margin-top: 5%;
+    padding: 1% 2.5%;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+------------------------------------ INTRODUCTION SECTION -------------------------------------
+*/
+
+#introduction h2,
+#introduction h3 {
+    font-size: 14px;
+}
+
+#introduction h2 {
+    font-size: 160%;
+}
+
+#introduction h1 {
+    font-size: 200%;
+}
+
+#introduction h2 {
+    font-size: 23px;
+}
+
+#prayer {
+    width: 100%;
+}
+
+#introduction button {
+    margin-right: 3%;
+    margin-top: 5%;
+    font-size: 16px;
+    padding: 0% 2% 2% 2%;
+}
+
+#intro-side {
+    padding: 2%;
+    height: 400px;
+}
+
+
+
+
+
+/*
+------------------------------------ PROJECTS SECTION -------------------------------------
+*/
+
+#projects h1 {
+    font-size: 40px;
+}
+
+#projects h3 {
+    font-size: 14px;
+}
+
+#projects .card-body {
+    padding: 7% 0%;
+}
+
+#projects .card-body p {
+    font-size: 10px;
+    padding: 0 2%;
+} 
+
+
+
+
+
+
+
+/*
+------------------------------------ EVENTS SECTION -------------------------------------
+*/
+
+#events h1 {
+    font-size: 40px;
+}
+
+#events .card-body {
+    padding: 7%;
+    padding-top: 5%;
+    padding-bottom: 7%;
+}
+
+.event-txt {
+    font-size: 15px;
+}
+
+.head-txt {
+    width: 85%;
+    padding-top: 17%;
+}
+
+.head-txt p {
+    padding: 0 3%;
+}
+
+#events button {
+    padding: 0.5% 5% 2.5% 5%;
+    font-size: 18px;
+    margin-top: 4%;
+}
+
+
+
+/*
+------------------------------------ BOOKS SECTION -------------------------------------
+*/
+
+#books h1 {
+    font-size: 45px;
+}
+
+#books h2 {
+    font-size: 25px;
+}
+
+#book-info p {
+    font-size: 14px;
+    padding-left: 3%;
+    padding-right: 2%;
+}
+
+#book-info button {
+    padding: 0.5% 5% 2.5% 5%;
+    margin-left: 10%;
+    margin-bottom: 7%;
+}
+
+#slide-buttons button span {
+    width: 50px;
+    height: 50px;
+    padding-top: 9%;
+}
+
+#slide-buttons {
+    right: 0;
+}
+
+
+
+
+
+
+/*
+-------------------------------- GALLERY SECTION ------------------------------------
+*/
+
+
+.grid-sizer,
+.grid-item {
+  width: 33.333%;
+}
+
+
+
+
+
+
+
+
+/*
+------------------------------------ ADDRESS SECTION --------------------------------------
+*/
+
+#address img {
+    width: 30%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
