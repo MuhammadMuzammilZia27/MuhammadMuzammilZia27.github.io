@@ -1,0 +1,476 @@
+/*   COLORS  #474129 ----------------------  #8c8820      */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+section {
+    width: 100%;
+}
+
+
+#clearfix:after {
+    clear: both;
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+
+
+/*
+--------------------------- HEADER SECTION ---------------------------------
+*/
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    position: fixed;
+    z-index: 999;
+}
+
+.logo {
+    width: 20%;
+    display: inline;
+    float: left;
+    margin: -2.5% 25% 0 3%;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 3%;
+    color: #474129;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+#nav-button {
+    padding: 8px 30px;
+    background-color: #ada927;
+    font-size: 13px;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#contact-button {
+    display: block;
+    width: 25%;
+    text-align: center;
+    padding: 15px 20px;
+    background-color: #ada927;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 4px;
+    margin-left: 3%;
+    margin-top: 3%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+header div {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+    margin-left: 3%;
+    margin-top: 13%;
+}
+
+.head-info li {
+    margin-top: 3%;
+    list-style: none;
+}
+
+.head-info li:before {
+    display: inline-block;
+    content: "";
+    width: 7px;
+    height: 7px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 5px solid #a5a723;
+    margin-right: 3%;
+}
+
+.facts {
+    margin-top: 7%;
+}
+
+.facts li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 3%;
+    width: 20%;
+}
+
+#fact-ico {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 60px;
+    margin-right: 20px;
+    color: #2ed573;
+}
+
+.facts p {
+    display: inline-block;
+    font-size: 16px;
+    width: 60%;
+    color: #474129;
+}
+
+
+
+/*
+--------------------------- STAFF SECTION ---------------------------------
+*/
+
+
+.staff-section {
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.staff-photo {
+    display: inline-block;
+    vertical-align: top;
+    width: 55%;
+    margin-left: 7%;
+    font-size: 18px;
+}
+
+.staff-info {
+    display: inline-block;
+    width: 33%;
+    font-size: 17px;
+    line-height: 150%;
+    word-spacing: 5px;
+}
+
+.staff-photo div {
+    width: 210px;
+    height: 310px;
+    padding: 2% 2% 2% 2%;
+    border-radius: 15px;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.staff-photo div p {
+    margin-top: 7%;
+    font-size: 14px;
+}
+
+.staff-photo div img {
+    border-radius: 15px;
+}
+
+.one {
+    left: 23%;
+}
+
+.two {
+    left: 5%;
+    margin-top: 13%;
+}
+
+.three {
+    left: 41%;
+    margin-top: 13%;
+}
+
+.four {
+    left: 23%;
+    margin-top: 25.5%;
+}
+
+
+.core-values {
+    margin-top: 5%;
+}
+
+.core-values li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    font-weight: 500;
+    width: 20%;
+    margin-right: 4.5%;
+    padding: 3% 2%;
+    border-radius: 15px;
+    color: #474129;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+#core-ico {
+    font-size: 40px;
+    margin-bottom: 15%;
+    color: #2ed573;
+}
+
+
+
+/*
+--------------------------- WORK SECTION ---------------------------------
+*/
+
+.work-section {
+    margin-top: 7%;
+    text-align: center;
+}
+
+.work-logos {
+    width: 80%;
+    height: 150px;
+    margin: 0 10%;
+    padding: 0.5% 2% 0 2%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 30px;
+}
+
+.work-logos img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 7%;
+}
+
+
+
+
+/*
+--------------------------- SUCCESS STORIES SECTION ---------------------------------
+*/
+
+
+
+.succss-stories {
+    margin-top: 7%;
+}
+
+.succss-stories div {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    height: 250px;
+    margin-left: 3%;
+}
+
+.succss-stories img {
+    display: inline-block;
+    margin-right: 3%;
+}
+
+.succss-stories h3 {
+    color: #474129;
+    display: inline-block;
+    width: 80%;
+}
+
+.succss-stories p {
+    font-size: 16px;
+    margin-top: 7%;
+    margin-left: 12%;
+}
+
+#staff1,
+#staff2 {
+    width: 28%;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px;
+}
+
+
+
+
+
+/*
+--------------------------- BLOG SECTION ---------------------------------
+*/
+
+
+.blog-section {
+    margin-top: 7%;
+    text-align: center;
+}
+
+.blog-section div {
+    display: inline-block;
+    width: 27%;
+    margin-left: 4%;
+}
+
+.blog-section h3,
+.blog-section p {
+    margin-top: 7%;
+    color: #474129;
+    font-weight: 500;
+}
+
+#blog-button {
+    display: block;
+    width: 55%;
+    text-align: center;
+    padding: 20px 30px;
+    background-color: #ada927;
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 7%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+
+
+
+
+/*
+--------------------------- FORM SECTION ---------------------------------
+*/
+
+.form-section {
+    padding-top: 7%;
+}
+
+.form-section div {
+    width: 65%;
+    display: inline-block;
+}
+
+.form-side {
+    background-color: #202720;
+    color: #ffffff;
+    padding: 2%;
+    vertical-align: top;
+    position: absolute;
+    z-index: 7;
+    left: 15%;
+    margin-top: 8%;
+    box-shadow: rgba(100, 100, 111, 0.5) 0px 7px 29px 0px;
+}
+
+.form-side input,
+.form-side textarea {
+    margin-top: 5%;
+    width: 100%;
+    border: none;
+    padding: 3% 0;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 300;
+    background-color: #202720;
+    border-bottom: 2px solid rgb(90, 90, 90);
+}
+
+.info-side {
+    background-color: #f1f2f6;
+    color: #474129;
+    padding: 10%;
+    padding-left: 15%;
+    padding-right: 5%;
+    vertical-align: top;
+    height: 800px;
+    position: absolute;
+    right: 0;
+}
+
+.info-side ul {
+    list-style: none;
+}
+
+#send-button {
+    display: block;
+    width: 100%;
+    border: none;
+    text-align: center;
+    padding: 17px 30px;
+    background-color: #ada927;
+    font-size: 17px;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 4px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.info-side h2,
+.info-side p {
+    margin-bottom: 7%;
+}
+
+#touch-ico {
+    margin-bottom: 7%;
+}
+
+#touch-ico li {
+    display: inline-block;
+    width: 30%;
+    font-size: 16px;
+    margin-right: 4%;
+}
+
+#t-ico {
+    display: block;
+    font-size: 40px;
+    padding: 3%;
+    padding-top: 10%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    text-align: center;
+    color: #2ed573;
+    border: 2px solid #2ed573;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+#touch-info li {
+    font-size: 16px;
+    margin-bottom: 1%;
+}
+
+
+
+
+/*
+--------------------------- FOOTER SECTION ---------------------------------
+*/
+
+
+footer {
+    background-color: rgb(27, 27, 27);
+    color: #ffffff;
+    width: 100%;
+    margin-top: 59%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
