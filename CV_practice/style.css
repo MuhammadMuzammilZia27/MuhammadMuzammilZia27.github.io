@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+hr {
+    margin-bottom: 0.3%;
+}
+
+.container {
+    display: block;
+    width: 60%;
+    margin: auto;
+    background-color: #fff;
+}
+
+.headblock {
+    width: 100%;
+    height: 50vh;
+    margin-bottom: 2%;
+}
+
+.heado {
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+
+.heado div {
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.imag {
+    width: 30%;
+    margin-left: 2%;
+}
+
+.imag img {
+    width: 100%;
+}
+
+.user {
+    width: 50%;
+    margin-left: 5%;
+}
+
+.user h2 {
+    color: green;
+    margin-top: 2%;
+}
+
+.user h3 {
+    margin-top: 7%;
+    background-color: #272727;
+    width: 25%;
+    text-align: center;
+    padding: 2% 2% 2% 2%;
+    display: inline-block;
+}
+
+.user hr {
+    display: inline-block;
+    width: 70%;
+    height: 2px;
+    background-color: #000;
+    margin-left: -1%
+}
+
+.user p {
+    color: black;
+    margin-top: 5%;
+}
+
+
+.info-body {
+    width: 100%;
+}
+
+.left, .right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.left {
+    width: 68%;
+    padding-left: 3%;
+}
+
+.left div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.left h3 {
+    background-color: #000;
+    color: #ffffff;
+    padding: 2%;
+    width: 22%;
+    display: inline-block;
+    text-align: center;
+}
+
+.left hr {
+    display: inline-block;
+    width: 65%;
+    height: 2px;
+    background-color: #000;
+    margin-left: -0.7%;
+}
+
+.institute {
+    width: 25%;
+}
+
+.institute-info {
+    width: 65%;
+    margin-left: 5%;
+}
+
+.institute h4 {
+    color: green;
+    text-align: right;
+}
+
+.institute p {
+    color: #000;
+    text-align: right;
+}
+
+.institute-info {
+    color: #000;  
+}
+
+
+.right {
+    width: 22%;
+    color: #000;
+    padding-left: 5%;
+}
+
+.right h3 {
+    background-color: #000;
+    color: #ffffff;
+    padding: 6%;
+    width: 60%;
+    display: inline-block;
+    text-align: center;
+}
+
+.right hr {
+    display: inline-block;
+    width: 25%;
+    height: 2px;
+    background-color: #000;
+    margin-left: -2.2%;
+}
+
+.right div {
+    font-size: 15px;
+}
+
+.skills, .languages {
+    padding-left: 12%;
+}
+
+i {
+    color: green;
+}
+
+.right ul {
+    list-style: none;
+}
+  
+.right ul li::before {
+    content: "\2022"; 
+    color: green;
+    font-size: 21px;
+    font-weight: bold; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+}
+
+.bottom-green {
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    margin-top: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
